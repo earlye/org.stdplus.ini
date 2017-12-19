@@ -1,0 +1,9 @@
+{ "type" : "library" ,
+  "target" : "org.stdplus.ini" ,
+  "name" : "org.stdplus.ini",
+  "lflags" : [],
+  "dependencies" : [
+      { "name" : "org.stdplus.strings" },
+      { "name" : "org.stdplus.iostreams" }
+  ],
+  "header-only" : false }
